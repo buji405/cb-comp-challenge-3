@@ -1,0 +1,582 @@
+body {
+  display: flex;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  color: #6f6f70;
+}
+
+.girl {
+  width: 170px;
+  padding: 25px 45px 15px 45px;
+  border-radius: 100%;
+}
+
+h5 {
+  text-align: center;
+}
+
+.who {
+  border-bottom: 2px solid #262d3a;
+  padding-bottom: 20px;
+}
+
+.main-side-section {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #262d3a;
+  padding: 20px 0px 0 20px;
+}
+
+.styling {
+  padding-bottom: 30px;
+}
+
+.side-icon {
+  width: 25px;
+  hight: 25px;
+  padding-right: 10px;
+}
+
+ li:hover {
+  color: white;
+}
+
+.ham-menu {
+  width: 80px;
+  height: 100%;
+  align-items: center;
+  border-right: 2px solid lightgrey;
+}
+
+.left-aside {
+  width: 20%;
+  background: #354052;
+  color: #A9B4C6;
+  font-weight: 700;
+}
+
+.profile,
+.calendar,
+.squares {
+  padding-right: 20px;
+  border-left: 2px solid lightgrey;
+}
+
+.ham-menu:hover,
+.profile:hover,
+.calendar:hover,
+.squares:hover {
+  background: #00C5ED;
+}
+
+.main-content{
+  width: 80%;
+}
+
+.icon {
+  width: 30px;
+  padding-left: 25px;
+  padding-top:20px;
+}
+
+.search-icon {
+  width: 23px;
+  padding-left: 20px;
+  padding-top: 3px;
+}
+
+.top-nav {
+  display: flex;
+  border-bottom: 2px solid lightgrey;
+  height: 70px;
+}
+
+.search-bar {
+  display: flex;
+  flex-grow: 2;
+  height: 40px;
+  padding-top: 15px;
+}
+
+input {
+  display: flex:
+  width: 200px;
+  padding-left: 10px;
+  border-style: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+input[placeholder] {
+  font-size: 15px;
+  width: 80%;
+}
+
+.job {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  padding: 20px;
+}
+
+.job-info {
+  margin-left: 7px;
+  margin-bottom: 15px;
+}
+
+.top-buttons {
+  margin-right: 20px;
+}
+
+h1 {
+  padding-left: 25px;
+  font-size: 25px;
+  padding-top: 30px;
+  font-weight: 700;
+}
+
+.open {
+  background: #fff;
+  width: 75px;
+  height: 35px;
+  border-radius: 15px;
+}
+
+.dot {
+  width: 10px;
+  padding-right: 8px;
+}
+
+.icon-btn {
+  height: 35px;
+  width: 35px;
+  border-radius: 50px;
+  background: #fff;
+  margin-left: 20px;
+}
+
+.style-icon {
+  width: 15px;
+}
+
+.preview{
+  color: #00C5ED;
+}
+
+.nav-tabs {
+  text-align: center;
+}
+
+.tabs {
+  text-decoration: none;
+  font-weight: 700;
+  margin-right: 30px;
+  padding-bottom: 26px;
+  color: #97969A;
+}
+
+.tabs:hover {
+  border-bottom: 3px solid #00C5ED;
+}
+
+.stats {
+  background: #EDF2F6;
+  height: 355px;
+}
+
+.intimidating-circles {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  padding: 50px;
+  width: 50%;
+}
+
+.circlezz {
+  height: 130px;
+  width: 130px;
+  border-radius: 100%;
+  text-align: center;
+  margin-right: 20px;
+}
+
+.circle1 {
+  border: 10px solid #a957ed;
+  border-right: 10px solid #c7c5c9;
+}
+
+.circle2 {
+  border: 10px solid #057ab6;
+  border-bottom: 10px solid #c7c5c9;
+}
+
+.circle3 {
+  border: 10px solid #65aa05;
+  border-top: 10px solid #c7c5c9;
+}
+
+.nums {
+  padding-top: 45px;
+  padding-right: 25px;
+  padding-bottom: 7px;
+}
+
+.totals {
+ height: 40px;
+ margin-left: 190px;
+ margin-bottom: 20px;
+ border-radius: 30px;
+ padding: 0 15px 0 15px;
+ font-size: 13px;
+ background: #fff;
+}
+
+.graph {
+  position:absolute;
+  top: 320px;
+  left: 850px;
+  bottom: 150px;
+  width: 400px;
+}
+
+.g-image {
+  width: 400px;
+  height: 200px;
+}
+
+.performance {
+  margin-left: 120px;
+  margin-top: 25px;
+  height: 40px;
+  border-radius: 30px;
+  padding: 0 15px 0 15px;
+  font-size: 13px;
+  background: #fff;
+}
+
+.page-divider {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  background:#EDF2F6;
+}
+
+.arrow {
+  display: block;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.line {
+  display: block;
+  height: 3px;
+  width: 49%;
+  background: #97969a;
+  margin-top: 15px;
+}
+
+.bottom-job-section {
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  background: #EDF2F6;
+}
+
+.job-stuff {
+  display: inline-block;
+  padding: 15px 0 15px 30px;
+}
+
+.left-description {
+  width: 55%;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.job-desc {
+  padding: 10px;
+  display: flex;
+  justify-content: inherit;
+  background-color: #6f7e95;
+  color: #fff;
+  font-size: 25px;
+  padding-top: 15px;
+ }
+}
+
+.title1 {
+  padding-top: 10px;
+  padding-left: 5px;
+  font-size: 35px;
+}
+
+.edit-btn {
+  display: inline-block;
+  background: #7e8fa8;
+  color: #fff;
+  margin-left: 40px;
+  font-size: 14px;
+  border: none;
+}
+
+.edit-icon {
+  display: inline-block;
+  width: 20px;
+  padding-right: 5px;
+  background: #7e8fa8;
+}
+
+.post {
+  padding-top:5px;
+}
+
+.soc-icon {
+  display: flex;
+  justify-content: space-between;
+  width: 20px;
+  padding-right: 50px;
+  padding-top: 5px;
+  padding-bottom:5px;
+}
+
+.employment-details {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border-bottom: 1px solid black;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  padding: 32px 20px 30px 20px;
+  font-weight: 700;
+}
+
+.more-info {
+margin-left: 20px;
+}
+
+.service {
+  margin-left: 50px;
+}
+
+.sf {
+  margin-left: 90px;
+}
+
+.level {
+   margin-left: 80px;
+}
+
+.status {
+  margin-left: 115px;
+}
+
+.description-time {
+  padding: 20px 10px 20px 38px;
+  word-wrap: break-word;
+  line-height: 20px;
+}
+
+.tom {
+  margin-left: 60px;
+}
+
+.social-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 65px;
+  margin-right: 10px;
+  padding-top: 8px;
+}
+
+.social-btn {
+  display: flex;
+  justify-content: center;
+  width: 320px;
+  height: 50px;
+  margin: 10 auto 20px auto;
+  padding: 10px 20px;
+  border-radius: 2px;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+}
+
+.facebook {
+  background: #3C5A99;
+}
+
+.twitter {
+  background: #1DA1F2;
+}
+
+.linkedin {
+  background: #057AB6;
+}
+
+.subscribe-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.icon-styling {
+  width: 20px;
+  padding-left: 60px;
+  padding-bottom: 10px;
+}
+
+.subscription {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.link-header {
+  font-size: 18px;
+  font-weight: 700;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+.about {
+  padding-left: 70px;
+  line-height: 25px;
+}
+
+.sub {
+  height: 40px;
+  width: 61%;
+  margin-top: 20px;
+  margin-left: 70px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid black;
+}
+
+.copy {
+  height: 40px;
+  background: #057ab6;
+  color: #fff;
+  border: none;
+  width: 50px;
+}
+
+@media screen and (max-width: 1040px) {
+  .left-aside {
+    display: none;
+  }
+  .graph {
+
+    position:absolute;
+    left: 600px;
+    bottom: 150px;
+    width: 400px;
+    }
+
+  .main-content{
+    width: 100%;
+   }
+  }
+
+@media screen and (max-width: 1015px) {
+  .stats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 650px;
+  }
+
+  .totals {
+    width: 220px;
+    margin-left: 0;
+  }
+
+  .performance {
+    width: 220px;
+    margin-top: 250px;
+    margin-left: 0;
+  }
+
+  .graph {
+    position:absolute;
+    top: 600px;
+    left: 300px;
+    width: 400px;
+    padding-top: 20px;
+    }
+
+  .bottom-job-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .left-description {
+    width: 95%;
+  }
+
+  .right-bottom {
+    display: flex;
+  }
+
+  .subscribe-container {
+    width: 50%;
+  }
+
+  .tabs {
+    font-size: 14px;
+    margin-right: 7px;
+    padding-bottom: 0;
+  }
+
+@media screen and (max-width: 820px) {
+
+  .graph {
+    position: absolute;
+    left: 200px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .totals {
+    margin-left: 55px;
+  }
+
+  .performance {
+    margin-left: 55px;
+  }
+
+  .graph {
+    position: absolute;
+    left: 210px;
+    padding-top:50px;
+  }
+
+  .job {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .right-bottom {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .social-buttons{
+    width: 60%;
+  }
+
+  .social-buttons {
+    width: 70%;
+  }
+
+  @media screen and (max-width: 750px) {
+    .stats {
+      display: flex;
+      flex-direction: column;
+    }
+  }
